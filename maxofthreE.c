@@ -3,12 +3,14 @@
 void main()
 {
     int a,b,c;
-    printf("Enter 3 numbers a,b,c\n");
+    printf("Enter 3 numbers\n");
     scanf("%d",&a);
     scanf("%d",&b);
     scanf("%d",&c);
     if(a>b){
+
         if(a>c){
+
             printf("First number is greatest\n");
             printf("%d",a);
         }
